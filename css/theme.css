@@ -51,6 +51,9 @@ a, a:visited {
 .hero h1 {
   font-size: 70px;
 }
+.hero .email {
+  color: #000;
+}
 .why {
   padding-bottom: 40px;
 }
