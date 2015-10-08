@@ -71,7 +71,7 @@ a.btn {
 .why p, .why li {
   font-weight: 300;
 }
-.why img {
+.why img, .guide img {
   height: auto;
   max-width: 225px;
   width: 100%;
