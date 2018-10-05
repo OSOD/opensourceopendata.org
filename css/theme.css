@@ -1,120 +1,98 @@
+html, body {
+  height: 100%;
+}
 body {
-  color: #000000;
-  font-family: 'Lato', sans-serif;
-  font-size: 22px;
+  color: #212121;
+  font-family: 'Merriweather', serif;
   font-weight: 300;
 }
 h1, h2, h3, h4, h5 {
-  color: #000000;
-  font-weight: 300;
+  color: #212121;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-weight: 700;
 }
 h2 {
   font-size: 40px;
   padding-bottom: 20px;
 }
+h3 {
+  font-size: 20px;
+  padding-bottom: 0px;
+}
 a, a:visited {
   color: #0072bc;
 }
-.btn {
-  background: transparent;
-  border: 1px solid #fff;
-  font-weight: 300;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-.btn:hover {
-  background: #fff;
-  border: 1px solid #fff;
-  color: #000;
-  font-weight: 300;
-}
-.btn-default {
-  background: #000;
-  box-shadow: none;
-  color: #fff;
-  text-shadow: none;
-}
-a.btn {
-  color: #fff;
-}
-.header {
-  background: #000;
-  border-bottom: 1px solid #fff; 
-  color: #fff; 
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-.header img {
+img {
+  max-width: 100%;
   height: auto;
-  width: 100%;
-  max-width: 150px;
 }
-.hero {
-  background: #000 url("../img/hero.png") bottom right no-repeat;
+p, li {
+  font-size: 125%;
+}
+hr {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+/* Navbar */
+
+.navbar {
+  margin-bottom: 0;
+}
+.navbar img {
+  max-height: 55px;
+  margin-top: 10px;
+}
+
+/* Header/Footer */
+
+.navbar, footer {
+  background: #4773AA;
+  color: #fff;
+}
+.navbar a, footer a, .navbar a:hover, footer a:hover {
+  color: #fff;
+}
+footer {
+  margin-top: 40px;
+  padding: 40px 0;
+}
+footer p {
+  font-size: 100%;
+  padding: 0;
+}
+footer .social {
+  font-size: 30px;
+}
+footer img {
+  max-width: 300px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background: #4773AA url("../img/hero.png");
+  background-position: right;
   color: #fff;
   margin-bottom: 40px; 
   padding-bottom: 90px;
   padding-top: 70px;
+  background-repeat: no-repeat;
 }
-.hero h1, .hero h2, .hero h3 {
+.jumbotron h1, .jumbotron p {
   color: #fff;
 }
-.hero h1 {
+.jumbotron h1 {
   font-size: 70px;
 }
-.hero .email {
-  color: #000;
+
+/* People */
+
+.people img {
+  border-radius: 50%;
+  max-width: 125px;
 }
-.why {
-  margin-bottom: 40px;
-}
-.why p, .why li {
-  font-weight: 300;
-}
-.why img, .guide img {
-  height: auto;
-  max-width: 225px;
-  width: 100%;
-}
-.share {
-  padding-bottom: 40px;
-}
-.line {
-  border-bottom: 5px solid #e8e8e8;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-}
-.collaborators {
-  padding-bottom: 40px;
-}
-.collaborators img {
-  height: auto;
-  max-width: 200px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  width: 100%;
-}
-.navbar {
-  background: #000000;
-  border-color: #000000;
-}
-.navbar p, .social p {
-  font-size: 28px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  padding: 0;
-}
-.navbar a, .social a {
-  color: #fff;
-  margin-left: 15px;
-}
-.navbar button, input, optgroup, select, textarea {
-  color: #fff;
-}
-.footer {
-  padding-bottom: 150px;
-  padding-top: 40px;
-}
-.footer p {
-  font-size: 70%;
+.people-why img {
+  border-radius: 50%;
+  max-width: 75px;
 }
