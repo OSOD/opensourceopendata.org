@@ -50,7 +50,7 @@ hr {
   background: #4773AA;
   color: #fff;
 }
-.navbar a, footer a, .navbar a:hover, footer a:hover {
+.navbar a, footer a, .navbar a:hover, footer a:hover, footer a:visited {
   color: #fff;
 }
 footer {
