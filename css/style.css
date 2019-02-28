@@ -110,3 +110,11 @@ footer img {
   border-radius: 50%;
   max-width: 75px;
 }
+#manifesto p {
+    line-height: 50px;
+}
+#manifesto h2 {
+    text-align: center;
+    font-size: 60px;
+    padding: 30px 0;
+}
