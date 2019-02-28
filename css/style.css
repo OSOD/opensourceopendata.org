@@ -71,7 +71,7 @@ footer img {
 /* Jumbotron */
 
 .jumbotron {
-  background: #4773AA url("../img/hero.png");
+  background: #4773AA;
   background-position: right;
   color: #fff;
   margin-bottom: 40px; 
