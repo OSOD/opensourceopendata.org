@@ -7,17 +7,8 @@ body {
   font-weight: 300;
 }
 h1, h2, h3, h4, h5 {
-  color: #212121;
  font-family: 'Source Sans Pro', sans-serif;
  font-weight: 700;
-}
-h2 {
-  font-size: 40px;
-  padding-bottom: 20px;
-}
-h3 {
-  font-size: 20px;
-  padding-bottom: 0px;
 }
 a, a:visited {
   color: #0072bc;
@@ -110,11 +101,42 @@ footer img {
   border-radius: 50%;
   max-width: 75px;
 }
-#manifesto p {
-    line-height: 50px;
+#manifesto p.lead {
+  line-height: 5rem;
+  padding: 20px 10px 60px 10px;
 }
 #manifesto h2 {
-    text-align: center;
-    font-size: 60px;
-    padding: 30px 0;
+  text-align: center;
+  font-size: 3rem;
+  padding: 30px 0;
+}
+#intro p {
+  font-size: 1.7rem;
+}
+#principles {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+#principles-list {
+  padding: 15px 10px 25px 25px;
+  font-size: 1.2rem;
+}
+#principles-list ol {
+  padding-top: 5px;
+}
+#principles-list li {
+  padding: 15px;
+}
+#effort-list li {
+  padding: 15px;
+}
+#more h2 {
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+#more {
+  padding: 40px 0;
+}
+#more p {
+  padding: 15px 0;
 }
