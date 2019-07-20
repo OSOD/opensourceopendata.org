@@ -5,51 +5,70 @@ body {
   color: #212121;
   font-family: 'Merriweather', serif;
   font-weight: 300;
+  font-size: 1.2rem;
 }
 h1, h2, h3, h4, h5 {
  font-family: 'Source Sans Pro', sans-serif;
  font-weight: 700;
+ margin: 30px 0 15px;
 }
-a, a:visited {
-  color: #0072bc;
+a {
+  color: #00819c;
+}
+a:visited,
+a:hover {
+  color:#005160;
+}
+.logo {
+  max-width: 650px;
+}
+@media only screen and (max-width: 800px) {
+  .logo {
+    max-width: 90%;
+  }
 }
 img {
   max-width: 100%;
   height: auto;
 }
-p, li {
-  font-size: 125%;
-}
 hr {
   margin-bottom: 40px;
   margin-top: 40px;
 }
+section,
+footer {
+  padding: 60px 0;
+}
 
 /* Navbar */
 
-.navbar {
-  margin-bottom: 0;
+.quicknav {
+  text-align: right;
+  background: #00819c;
 }
-.navbar img {
-  max-height: 55px;
-  margin-top: 10px;
+.quicknav a,
+.quicknav a:hover,
+.quicknav a:visited {
+  display: inline-block;
+  padding: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 /* Header/Footer */
 
-.navbar, footer {
-  background: #4773AA;
-  color: #fff;
-}
-.navbar a, footer a, .navbar a:hover, footer a:hover, footer a:visited {
-  color: #fff;
-}
 footer {
-  margin-top: 40px;
-  padding: 40px 0;
+  background: #2b2b2b;
+  color: #fff;
 }
+footer a, 
+footer a:hover, 
+footer a:visited {
+  color: #fff;
+}
+
 footer p {
-  font-size: 100%;
+  font-size: 1rem;
   padding: 0;
 }
 footer .social {
@@ -58,68 +77,58 @@ footer .social {
 footer img {
   max-width: 200px;
 }
+button.btn-primary {
+  background-color: #00819c;
+  border: none;
+}
+button.btn-primary:hover {
+  background-color: #005160;
+  border: none;
+}
 
 /* Jumbotron */
 
 .jumbotron {
-  background: #4773AA;
-  background-position: right;
+  background: #00819c;
   color: #fff;
-  margin-bottom: 40px; 
   padding-bottom: 90px;
   padding-top: 70px;
-  background-repeat: no-repeat;
+  margin: 0;
 }
 .jumbotron h1, .jumbotron p {
   color: #fff;
-}
-.jumbotron h1 {
-  font-size: 70px;
 }
 
 /* Reverse */
 
 .reverse {
-  background: #4773AA;
+  background: #00819c;
   color: #fff;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  padding-bottom: 30px;
-  padding-top: 30px;
 }
 .reverse h2, .reverse .fa {
   color: #fff;
 }
+.reverse a,
+.reverse a:hover,
+.reverse a:visited {
+  color: #FFFFFF;
+}
 
-/* People */
-
-.people img {
-  border-radius: 50%;
-  max-width: 125px;
-}
-.people-why img {
-  border-radius: 50%;
-  max-width: 75px;
-}
-#manifesto p.lead {
-  line-height: 4rem;
-  padding: 20px 10px 60px 10px;
-}
-#manifesto h2 {
-  text-align: center;
-  font-size: 3rem;
-  padding: 30px 0;
-}
-#intro p {
+#intro {
   font-size: 1.7rem;
+  line-height: 4rem;
+}
+#intro,
+#join {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
 }
 #principles {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 900;
 }
 #principles-list {
-  padding: 15px 10px 25px 25px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 #principles-list ol {
   padding-top: 5px;
@@ -127,19 +136,4 @@ footer img {
 #principles-list li {
   padding: 15px;
 }
-#effort-list li {
-  padding: 15px;
-}
-#more h2 {
-  font-size: 3rem;
-  padding-bottom: 30px;
-}
-#more {
-  padding: 40px 0;
-}
-#more p {
-  padding: 15px 0;
-}
-#more h3 {
-  padding-top: 10px;
-}
+
