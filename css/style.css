@@ -1,6 +1,72 @@
 html, body {
   height: 100%;
 }
+.fluid-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.fluid-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#navigation {
+  background: #00819c;
+    position: fixed;
+    width: 35%;
+    -webkit-box-flex: 0 0 35%;
+    -moz-box-flex: 0 0 35%;
+    -webkit-flex: 0 0 35%;
+    -ms-flex: 0 0 35%;
+    flex: 0 0 35%;
+    height: 100vh;
+  color: #FFF;
+}
+.navigation-links {
+  margin: 0 10%;
+  font-size: 1.6rem;
+  padding: 13px 0;
+}
+#sign {
+  border: 1px solid #ccc;
+  margin-top: 50px;
+  background-color: #194450;
+  padding: 15px;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+}
+#summary {
+  margin: 50px 10% 0;
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+#navigation a {
+  color: #FFF;
+  width: 100%;
+}
+.nav-link {
+  padding: .5rem 0;
+}
+#summary a {
+  color: #202431;
+}
+.inner-container {
+  padding: 20px;
+}
+#main-content {
+  width: 65%;
+  -webkit-box-flex: 0 0 65%;
+  -moz-box-flex: 0 0 65%;
+  -webkit-flex: 0 0 65%;
+  -ms-flex: 0 0 65%;
+  flex: 0 0 65%;
+  margin-left: 35%
+}
 body {
   color: #212121;
   font-family: 'Merriweather', serif;
@@ -20,7 +86,11 @@ a:hover {
   color:#005160;
 }
 .logo {
-  max-width: 650px;
+  max-width: 500px;
+}
+.branding-image {
+  text-align: center;
+  padding: 20px 0;
 }
 @media only screen and (max-width: 800px) {
   .logo {
@@ -44,13 +114,13 @@ footer {
 
 .quicknav {
   text-align: right;
-  background: #00819c;
+  background: #0b4450;
 }
 .quicknav a,
 .quicknav a:hover,
 .quicknav a:visited {
   display: inline-block;
-  padding: 15px;
+  padding: 5px 10px;
   color: #FFFFFF;
   cursor: pointer;
 }
@@ -102,25 +172,24 @@ button.btn-primary:hover {
 /* Reverse */
 
 .reverse {
-  background: #00819c;
-  color: #fff;
+  background: #eaeaea;
 }
 .reverse h2, .reverse .fa {
-  color: #fff;
+  color: #999;
 }
 .reverse a,
 .reverse a:hover,
 .reverse a:visited {
-  color: #FFFFFF;
+  color: #194450;
 }
 
 #intro {
-  font-size: 1.7rem;
-  line-height: 4rem;
+  font-size: 3rem;
+  line-height: 5rem;
+  padding: 100px 15% 60px;
 }
 #intro,
 #join {
-  background-color: #f2f2f2;
   border-bottom: 1px solid #ddd;
 }
 #principles {
